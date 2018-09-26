@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 import { FormsModule} from '@angular/forms';
 
 import { AppComponent } from './app.component';
+import { ServerFormComponent } from './server-form/server-form.component';
+import { ServerDataComponent } from './server-data/server-data.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ServerFormComponent,
+    ServerDataComponent
   ],
   imports: [
     FormsModule,
